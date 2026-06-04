@@ -1,0 +1,91 @@
+# Guia de Contribucion
+
+## Ramas
+
+Use `dev` como rama base de trabajo.
+
+No haga commits directos sobre:
+
+- `main`
+- `master`
+- `dev`
+
+Para verificar la rama actual:
+
+```bash
+git branch --show-current
+```
+
+Para cambiar a `dev`:
+
+```bash
+git switch dev
+```
+
+Para crear una rama de trabajo desde `dev`:
+
+```bash
+git switch -c ejercicio/01-apellido-nombre
+```
+
+## Agregar nuevos ejercicios
+
+Cada nuevo ejercicio debe agregarse con esta estructura:
+
+```text
+ejercicios/
+└── 02-nombre-del-ejercicio/
+    ├── README.md
+    └── plantilla/
+        ├── diagramas/
+        │   └── .gitkeep
+        ├── ddl/
+        │   └── schema.sql
+        ├── dml/
+        │   └── inserts.sql
+        └── dql/
+            └── consultas.sql
+```
+
+El `README.md` del ejercicio debe incluir:
+
+- Contexto del problema.
+- Requerimientos.
+- Entregables.
+- Criterios de evaluacion.
+- Comandos basicos de ejecucion cuando aplique.
+
+## Agregar resoluciones
+
+Las resoluciones deben ir en:
+
+```text
+resoluciones/
+└── numero-ejercicio-apellido-nombre/
+```
+
+Ejemplo:
+
+```text
+resoluciones/
+└── 01-cinemax-sqlite-perez-ana/
+```
+
+## Commits
+
+Use mensajes claros:
+
+```text
+docs: agrega enunciado de cinemax
+feat: agrega plantilla del ejercicio 01
+fix: corrige consulta de funciones por sala
+```
+
+## Antes de entregar
+
+Verifique:
+
+- Los scripts SQL se ejecutan sin errores inesperados.
+- Las rutas solicitadas existen.
+- Las evidencias estan documentadas.
+- No hay archivos temporales o bases de datos locales versionadas.

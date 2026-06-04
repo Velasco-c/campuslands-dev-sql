@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+branch="$(git branch --show-current)"
+
+case "$branch" in
+  main|master|dev)
+    if [ "$ALLOW_PROTECTED_BRANCH_COMMIT" = "1" ]; then
+      exit 0
+    fi
+    echo "No se permiten commits directos en $branch. Cree una rama de trabajo desde dev."
+    exit 1
+    ;;
+esac
+
+exit 0
