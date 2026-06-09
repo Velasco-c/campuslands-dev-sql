@@ -69,7 +69,7 @@ campuslands-dev-sql/
 │   ├── README.md
 │   ├── 01-cinemax-sqlite/
 │   ├── 02-campus-shop/
-│   └── ... 30 ejercicios
+│   └── ... 40 ejercicios
 └── resoluciones/
     └── README.md
 ```
@@ -90,9 +90,19 @@ ejercicios/XX-nombre/
         └── consultas.sql
 ```
 
+Los ejercicios de normalizacion agregan tambien:
+
+```text
+plantilla/
+├── analisis/
+│   └── normalizacion.md
+└── datos/
+    └── datos-sin-normalizar.csv
+```
+
 ## Ejercicios incluidos
 
-Hay 30 ejercicios progresivos:
+Hay 40 ejercicios progresivos:
 
 ```text
 01 CineMax SQLite
@@ -125,6 +135,16 @@ Hay 30 ejercicios progresivos:
 28 Vistas y Reportes
 29 Transacciones Reservas
 30 Proyecto Integrador SQL
+31 Normalizacion Ventas Campus
+32 Normalizacion Pedidos Restaurante
+33 Normalizacion Matriculas Academicas
+34 Normalizacion Clinica Tratamientos
+35 Normalizacion Inventario Proveedores
+36 Normalizacion Hotel Reservas
+37 Normalizacion Biblioteca Multiautor
+38 Normalizacion Ecommerce Envios
+39 Normalizacion Recursos Humanos
+40 Normalizacion Integrador Avanzado
 ```
 
 Consulte el listado navegable en [ejercicios/README.md](ejercicios/README.md).

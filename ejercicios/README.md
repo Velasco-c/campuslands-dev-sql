@@ -36,6 +36,16 @@ Esta carpeta contiene los enunciados oficiales de practica. Los estudiantes no d
 | 28 | [Vistas y Reportes](28-vistas-reportes/README.md) | Vistas sql para reportes |
 | 29 | [Transacciones Reservas](29-transacciones-reservas/README.md) | Transacciones y consistencia |
 | 30 | [Proyecto Integrador SQL](30-proyecto-integrador-sql/README.md) | Proyecto integral con modelo relacional y consultas avanzadas |
+| 31 | [Normalizacion Ventas Campus](31-normalizacion-ventas-campus/README.md) | Normalizacion de datos hasta 3FN |
+| 32 | [Normalizacion Pedidos Restaurante](32-normalizacion-pedidos-restaurante/README.md) | Normalizacion de datos hasta 3FN |
+| 33 | [Normalizacion Matriculas Academicas](33-normalizacion-matriculas-academicas/README.md) | Normalizacion de datos hasta 3FN |
+| 34 | [Normalizacion Clinica Tratamientos](34-normalizacion-clinica-tratamientos/README.md) | Normalizacion de datos hasta 3FN |
+| 35 | [Normalizacion Inventario Proveedores](35-normalizacion-inventario-proveedores/README.md) | Normalizacion de datos hasta 3FN |
+| 36 | [Normalizacion Hotel Reservas](36-normalizacion-hotel-reservas/README.md) | Normalizacion de datos hasta 3FN |
+| 37 | [Normalizacion Biblioteca Multiautor](37-normalizacion-biblioteca-multiautor/README.md) | Normalizacion de datos hasta 3FN |
+| 38 | [Normalizacion Ecommerce Envios](38-normalizacion-ecommerce-envios/README.md) | Normalizacion de datos hasta 3FN |
+| 39 | [Normalizacion Recursos Humanos](39-normalizacion-recursos-humanos/README.md) | Normalizacion de datos hasta 3FN |
+| 40 | [Normalizacion Integrador Avanzado](40-normalizacion-integrador-avanzado/README.md) | Normalizacion de datos hasta 3FN |
 
 ## Convencion
 
