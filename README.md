@@ -70,6 +70,11 @@ campuslands-dev-sql/
 │   ├── 01-cinemax-sqlite/
 │   ├── 02-campus-shop/
 │   └── ... 109 ejercicios
+├── solicitudes-sql/
+│   ├── README.md
+│   ├── ejercicio-001-cafeteria-campus/
+│   ├── ejercicio-002-taller-motos/
+│   └── ... 100 ejercicios de solicitudes de cliente
 └── resoluciones/
     └── README.md
 ```
@@ -220,6 +225,36 @@ Hay 109 ejercicios progresivos:
 
 Consulte el listado navegable en [ejercicios/README.md](ejercicios/README.md).
 
+## Serie Solicitudes SQL
+
+Ademas de los ejercicios tecnicos, el repositorio incluye una serie especial de 100 ejercicios:
+
+[solicitudes-sql/README.md](solicitudes-sql/README.md)
+
+Esta serie evalua una habilidad clave para trabajo real: leer una solicitud escrita por un posible cliente y convertirla en una base de datos relacional.
+
+El estudiante debe practicar:
+
+- Comprension de requerimientos en texto.
+- Identificacion de entidades, atributos y relaciones.
+- Diseno de tablas con llaves primarias y foraneas.
+- Creacion de scripts `CREATE TABLE`.
+- Insercion de datos de prueba con `INSERT`.
+- Cambios controlados con `UPDATE`.
+- Eliminacion segura con `DELETE`.
+- Consultas para responder preguntas del cliente.
+- Documentacion de supuestos y decisiones tecnicas.
+
+La dificultad sube por bloques:
+
+| Rango | Enfoque |
+| --- | --- |
+| 001-020 | Comprension inicial y tablas simples. |
+| 021-040 | Relaciones basicas y `JOIN`. |
+| 041-060 | Restricciones, `UPDATE` y `DELETE` controlado. |
+| 061-080 | Reportes, agrupaciones y rankings. |
+| 081-100 | Casos mas abiertos con decisiones de modelado y vistas. |
+
 ## Como trabajar un ejercicio
 
 1. Haga fork del repositorio.
@@ -263,6 +298,22 @@ compare: alumno/apellido-nombre/ejercicio-01
 
 No se aceptan Pull Requests hacia `main`.
 
+Para la serie de solicitudes SQL, use esta ruta:
+
+```bash
+git switch -c alumno/apellido-nombre/solicitud-sql-001
+mkdir -p resoluciones/apellido-nombre/solicitudes-sql
+cp -R solicitudes-sql/ejercicio-001-cafeteria-campus/plantilla resoluciones/apellido-nombre/solicitudes-sql/ejercicio-001
+```
+
+Despues agregue solo su carpeta de resolucion:
+
+```bash
+git add resoluciones/apellido-nombre/solicitudes-sql/ejercicio-001
+git commit -m "feat(sql): resolver solicitud sql 001"
+git push -u origin alumno/apellido-nombre/solicitud-sql-001
+```
+
 ## Ramas protegidas
 
 - `main` esta protegida como rama estable.
@@ -288,4 +339,6 @@ La guia de configuracion de proteccion esta en [.github/branch-protection.md](.g
 - Las soluciones deben poder ejecutarse desde cero en una base de datos vacia.
 - No se deben subir archivos generados innecesarios como bases de datos locales, caches o capturas temporales.
 - Las soluciones van en `resoluciones/apellido-nombre/ejercicio-XX/`.
+- Las soluciones de la serie de solicitudes van en `resoluciones/apellido-nombre/solicitudes-sql/ejercicio-XXX/`.
 - Los enunciados en `ejercicios/` no se modifican.
+- Los enunciados en `solicitudes-sql/` no se modifican.
