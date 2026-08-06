@@ -1,7 +1,6 @@
 # Ejercicio 10: Hotel Reservas
 
 **Nombre:** Maria Jose Montepeque
-**Fecha:** 2026-08-04
 
 ## Descripcion del problema
 
